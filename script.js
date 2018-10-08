@@ -7,4 +7,8 @@ for (let i = 0; i < allHeaders.length; i++){
   allHeaders[i].classList.add("important"); 
 }
 
-let dashed = document.querySelector
+let dashed = document.querySelector(".dashed")
+dashed.classList.remove("dashed")
+
+let footer = document.querySelector(".article__footer")
+footer.classList.add("goldenrod")
